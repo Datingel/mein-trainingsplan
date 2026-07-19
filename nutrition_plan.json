@@ -1,29 +1,33 @@
 {
-  "allgemeine_empfehlungen": {
-    "protein": "2.0 - 2.5g pro kg Körpergewicht",
-    "kalorien": "Leichter Überschuss für Muskelaufbau (+200-400 kcal)",
-    "trinken": "Mindestens 3.5 - 4.5 Liter Wasser täglich",
-    "supplements": "Whey/Casein, Kreatin (5g), Vitamin D, Omega-3, Magnesium"
+  "persoenlich": {
+    "koerpergewicht": "Dein Gewicht in kg",
+    "ziel": "Muskelaufbau + Fettabbau"
   },
-  "mahlzeiten": {
-    "Frühstück": "Haferflocken (80-100g) + 30-40g Whey + Beeren + 20g Mandeln + Zimt",
-    "Mittagessen": "200-250g Hähnchen oder Rind + 150-200g Reis (gekocht) + viel Gemüse + Olivenöl",
-    "Pre-Workout": "Banane + 30g Whey Shake + Hafer",
-    "Post-Workout": "40g Whey + 80-100g Reis oder Süßkartoffel + Obst",
-    "Abendessen": "200g Lachs oder mageres Fleisch + Süßkartoffel + großer Salat + Avocado",
-    "Abend-Snack": "300-400g Magerquark/Skyr + Honig + Nüsse oder Casein-Shake"
+  "makros": {
+    "protein": "2.2 - 2.5g pro kg Körpergewicht",
+    "kohlenhydrate": "3 - 4g pro kg (rund um Training hoch)",
+    "fette": "0.8 - 1.0g pro kg",
+    "kalorien": "ca. 2800-3400 kcal (je nach Gewicht)"
   },
-  "tagesbeispiel_80kg": {
-    "protein": "180-220g",
-    "kohlenhydrate": "250-350g",
-    "fette": "70-90g",
-    "kalorien": "ca. 2800-3200 kcal"
+  "tagesstruktur": {
+    "Frühstück": "80-100g Hafer + 35g Whey + Beeren + 20g Mandeln + Zimt",
+    "Mittag": "220g Hähnchen/Rind + 180g Reis + Brokkoli/Paprika + Olivenöl",
+    "Pre-Workout": "Banane + 30g Whey + 40g Hafer",
+    "Post-Workout": "40g Whey + 100g Reis + Obst",
+    "Abendessen": "200g Lachs + Süßkartoffel + großer Salat + Avocado",
+    "Abend-Snack": "400g Magerquark + Honig + Nüsse oder Casein Shake"
   },
-  "tipps": [
-    "Protein über den ganzen Tag verteilen",
-    "Kohlenhydrate vor und nach dem Training hoch halten",
-    "Gemüse zu jeder Mahlzeit für Mikronährstoffe",
-    "1x pro Woche Refeed-Tag mit höheren Kohlenhydraten",
-    "Alkohol und stark verarbeitete Lebensmittel minimieren"
-  ]
+  "woechentliche_regeln": [
+    "Mind. 1x Refeed-Tag mit +100-150g Kohlenhydraten",
+    "2 Liter Wasser bis Mittag",
+    "Gemüse zu jeder Hauptmahlzeit",
+    "1 Cheat Meal pro Woche (bewusst genießen)"
+  ],
+  "supplements": [
+    "Kreatin 5g täglich",
+    "Vitamin D + Omega-3",
+    "Magnesium abends",
+    "Whey / Casein je nach Bedarf"
+  ],
+  "incentivierung": "Jede Woche mit 90%+ Protein-Ziel → Belohnung (z.B. Kino, neues Gadget)"
 }
