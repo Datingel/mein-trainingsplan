@@ -4,7 +4,7 @@ import json
 import random
 from datetime import date, timedelta
 
-st.set_page_config(page_title="Coach Max", layout="centered", initial_sidebar_state="expanded")
+st.set_page_config(page_title="Coach Me&Myself", layout="centered", initial_sidebar_state="expanded")
 
 # ==================== MODERNES DESIGN ====================
 st.markdown("""
@@ -18,7 +18,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.title("💪 Coach Max")
+st.title("💪 Coach Me&Myself")
 st.caption("Dein persönlicher Klimmzüge & Spagat Coach")
 
 # ==================== DATEIEN LADEN ====================
@@ -41,7 +41,7 @@ daily_quote = random.choice(quotes) if quotes else {}
 st.markdown(f"""
 <div class="quote">
     "{daily_quote.get('text', 'Bleib dran!')}"<br>
-    <strong>— {daily_quote.get('author', 'Coach Max')}</strong>
+    <strong>— {daily_quote.get('author', 'Coach Me&Myself')}</strong>
 </div>
 """, unsafe_allow_html=True)
 
@@ -70,7 +70,7 @@ with st.sidebar:
     st.divider()
     if st.button("💾 Backup herunterladen"):
         backup = json.dumps(st.session_state.user_data, indent=2, ensure_ascii=False)
-        st.download_button("JSON speichern", backup, f"coach_max_backup_{today}.json", "application/json")
+        st.download_button("JSON speichern", backup, f"coach_Me&Myself_backup_{today}.json", "application/json")
 
 # ===================== TABS (wie moderne Apps) =====================
 tab1, tab2, tab3, tab4 = st.tabs(["🏠 Home", "🏋️ Training", "🥗 Ernährung", "📈 Fortschritt"])
@@ -81,7 +81,7 @@ with tab1:
     
     col1, col2, col3 = st.columns(3)
     with col1:
-        best_pull = max([x.get("Wiederholungen",0) for x in st.session_state.user_data["pullups"]] or [0])
+        best_pull = Me&Myself([x.get("Wiederholungen",0) for x in st.session_state.user_data["pullups"]] or [0])
         st.metric("Beste Klimmzüge", f"{best_pull} WH")
     with col2:
         best_front = min([x.get("cm", 999) for x in st.session_state.user_data["front_split"]] or [999])
@@ -150,4 +150,4 @@ with tab4:
             st.line_chart(pd.DataFrame(st.session_state.user_data["side_split"]).set_index("Datum")["cm"], use_container_width=True)
 
 st.divider()
-st.caption("Coach Max • Alle Daten bleiben auf deinem Gerät")
+st.caption("Coach Me&Myself • Alle Daten bleiben auf deinem Gerät")
