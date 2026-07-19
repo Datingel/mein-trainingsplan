@@ -1,0 +1,11 @@
+{
+  "mahlzeiten": {
+    "Frühstück": "Haferflocken + Whey + Beeren + Mandeln",
+    "Mittagessen": "Hähnchen / Rind / Reis / Gemüse",
+    "Pre-Workout": "Banane + Whey Shake",
+    "Post-Workout": "Protein Shake + Reis oder Quark",
+    "Abendessen": "Lachs / Süßkartoffel / Salat",
+    "Abend-Snack": "Magerquark / Skyr / Casein"
+  },
+  "tipp": "Ziel: 2–2,5g Protein pro kg Körpergewicht"
+}
