@@ -15,7 +15,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.title("💪 Coach Max")
+st.title("💪 Coach Me&Myself")
 st.markdown("**Klimmzüge & Spagat Coach Me&Myself 2026**")
 
 # ==================== LOAD QUOTES ====================
