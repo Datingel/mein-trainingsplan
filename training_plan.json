@@ -1,18 +1,66 @@
 {
-  "kraft": [
-    "Scapular Pulls",
-    "Negative Klimmzüge (5-6 Sek. ablassen)",
-    "Band-unterstützte Klimmzüge",
-    "Greasing the Groove (mehrere kleine Sätze)",
-    "Dead Hangs (Griffkraft)"
-  ],
-  "dehnung": [
-    "Hüftbeuger Lunge (beide Seiten)",
-    "Hamstrings sitzend & stehend",
-    "Schmetterlingsdehnung mit Vorbeuge",
-    "Seitlicher Spagat Ansatz",
-    "Frontaler Spagat Ansatz",
-    "Pigeon Pose",
-    "Frog Pose"
+  "programm_name": "Klimmzüge & Spagat Mastery 2026",
+  "dauer": "Juli - Dezember 2026",
+  "phasen": [
+    {
+      "name": "Phase 1: Grundlage",
+      "zeitraum": "Juli - August 2026",
+      "ziel": "Erste saubere Klimmzüge + spürbare Beweglichkeitssteigerung",
+      "kraft": [
+        "Dead Hangs: 4 Sätze à 20-40 Sek.",
+        "Scapular Pulls: 4 Sätze à 8-12 WH",
+        "Negative Klimmzüge (5-6 Sek. ablassen): 4 Sätze à 3-5 WH",
+        "Band-unterstützte Klimmzüge: 4 Sätze à 5-8 WH",
+        "Inverted Rows / Australian Pull-ups: 3 Sätze à 8-12 WH"
+      ],
+      "dehnung": [
+        "Hüftbeuger Lunge: 3 × 60 Sek. pro Seite",
+        "Hamstrings (sitzend & stehend): 3 × 60 Sek.",
+        "Schmetterlingsdehnung + Vorbeuge: 3 × 60 Sek.",
+        "Seitlicher Spagat Ansatz: 3 × 45-90 Sek.",
+        "Pigeon Pose: 3 × 60 Sek. pro Seite",
+        "Frog Pose: 2 × 60 Sek."
+      ],
+      "frequenz": "Kraft 4x/Woche | Dehnung 5-6x/Woche"
+    },
+    {
+      "name": "Phase 2: Aufbau & Kraft",
+      "zeitraum": "September - Oktober 2026",
+      "ziel": "5-10 saubere Klimmzüge + fast voller Spagat",
+      "kraft": [
+        "Greasing the Groove: 6-8 kleine Sätze über den Tag",
+        "Negative Klimmzüge mit Pause oben: 5 Sätze à 4 WH",
+        "Band Klimmzüge (leichteres Band): 4 Sätze à 6-10 WH",
+        "Klimmzüge normal (Ristgriff): Max Sätze",
+        "Weighted Klimmzüge (leicht): 4 Sätze à 3-6 WH"
+      ],
+      "dehnung": [
+        "Tiefer Hüftbeuger Stretch mit Rotation: 4 × 60-90 Sek.",
+        "Straddle Stretch: 4 × 60 Sek.",
+        "Front Spagat Halten: 4 × 60-120 Sek.",
+        "Seitlicher Spagat aktiv-passiv: 4 × 60 Sek.",
+        "Lizard Pose + Twist: 3 × 60 Sek."
+      ],
+      "frequenz": "Kraft 4-5x/Woche | Dehnung täglich"
+    },
+    {
+      "name": "Phase 3: Spitzenleistung",
+      "zeitraum": "November - Dezember 2026",
+      "ziel": "12+ saubere Klimmzüge + voller Spagat beidseitig",
+      "kraft": [
+        "Klimmzüge normal: 5 Sätze à Max WH",
+        "Weighted Klimmzüge: 4 Sätze à 4-8 WH",
+        "Explosive Klimmzüge / Muscle-Ups Einsteiger",
+        "Isometrisches Halten (Kinn über Stange): 4 Sätze à 10-20 Sek.",
+        "Antagonist Training (Dips & Push-ups)"
+      ],
+      "dehnung": [
+        "Voller Front Spagat: 5 × 90-180 Sek.",
+        "Voller Seitlicher Spagat: 5 × 90 Sek.",
+        "Fortgeschrittene Variationen (Oversplits, etc.)",
+        "Active Flexibility Drills"
+      ],
+      "frequenz": "Kraft 4x/Woche | Dehnung 5x/Woche + aktive Erholung"
+    }
   ]
 }
