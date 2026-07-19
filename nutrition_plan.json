@@ -1,11 +1,29 @@
 {
-  "mahlzeiten": {
-    "Frühstück": "Haferflocken + Whey + Beeren + Mandeln",
-    "Mittagessen": "Hähnchen / Rind / Reis / Gemüse",
-    "Pre-Workout": "Banane + Whey Shake",
-    "Post-Workout": "Protein Shake + Reis oder Quark",
-    "Abendessen": "Lachs / Süßkartoffel / Salat",
-    "Abend-Snack": "Magerquark / Skyr / Casein"
+  "allgemeine_empfehlungen": {
+    "protein": "2.0 - 2.5g pro kg Körpergewicht",
+    "kalorien": "Leichter Überschuss für Muskelaufbau (+200-400 kcal)",
+    "trinken": "Mindestens 3.5 - 4.5 Liter Wasser täglich",
+    "supplements": "Whey/Casein, Kreatin (5g), Vitamin D, Omega-3, Magnesium"
   },
-  "tipp": "Ziel: 2–2,5g Protein pro kg Körpergewicht"
+  "mahlzeiten": {
+    "Frühstück": "Haferflocken (80-100g) + 30-40g Whey + Beeren + 20g Mandeln + Zimt",
+    "Mittagessen": "200-250g Hähnchen oder Rind + 150-200g Reis (gekocht) + viel Gemüse + Olivenöl",
+    "Pre-Workout": "Banane + 30g Whey Shake + Hafer",
+    "Post-Workout": "40g Whey + 80-100g Reis oder Süßkartoffel + Obst",
+    "Abendessen": "200g Lachs oder mageres Fleisch + Süßkartoffel + großer Salat + Avocado",
+    "Abend-Snack": "300-400g Magerquark/Skyr + Honig + Nüsse oder Casein-Shake"
+  },
+  "tagesbeispiel_80kg": {
+    "protein": "180-220g",
+    "kohlenhydrate": "250-350g",
+    "fette": "70-90g",
+    "kalorien": "ca. 2800-3200 kcal"
+  },
+  "tipps": [
+    "Protein über den ganzen Tag verteilen",
+    "Kohlenhydrate vor und nach dem Training hoch halten",
+    "Gemüse zu jeder Mahlzeit für Mikronährstoffe",
+    "1x pro Woche Refeed-Tag mit höheren Kohlenhydraten",
+    "Alkohol und stark verarbeitete Lebensmittel minimieren"
+  ]
 }
