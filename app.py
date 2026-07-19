@@ -4,7 +4,7 @@ import json
 import random
 from datetime import date
 
-st.set_page_config(page_title="Coach Max", layout="centered")
+st.set_page_config(page_title="Coach Me&Myself", layout="centered")
 
 # ==================== STYLES ====================
 st.markdown("""
@@ -16,7 +16,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.title("💪 Coach Max")
-st.markdown("**Klimmzüge & Spagat Coach 2026**")
+st.markdown("**Klimmzüge & Spagat Coach Me&Myself 2026**")
 
 # ==================== LOAD QUOTES ====================
 try:
